@@ -1,0 +1,153 @@
+.left h1 {
+	/* font-weight: 700; */
+	font-size: 2.5rem;
+	text-align: left;
+	color: #fff;
+	line-height: 1.2 !important;
+	padding-top: 110px;
+	width: 40%;
+	/* font-family: 'Amazon Ember Light' !important; */
+	/* font-weight: 700; */
+}
+.left p {
+	padding: 0;
+	font-size: 21px;
+	color: #d6d3d6;
+	width: 45%;
+	margin-top: 24px;
+}
+
+.merch-wrapper > div,
+.entertain-wrapper > div,
+.membership-wrapper > div,
+.firestick-wrapper > div,
+.freindly-wrapper > div {
+	color: #fff;
+}
+
+.merch-button {
+	color: #fff;
+	background-color: #0f79af;
+	border: none;
+	height: 50px;
+	width: 48%;
+	font-size: 18px;
+	font-weight: bold;
+	border-radius: 2px;
+}
+/* Entertain section */
+.entertain-wrapper {
+	background-color: #000;
+	background-image: linear-gradient(to left, #000 40%, transparent 58%),
+		url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-Living-Room-V2._CB524587855_SY1200_FMJPG_.jpg);
+	background-position: right top;
+	height: 480px;
+}
+.entertain-wrapper-div {
+	display: flex;
+	padding: 125px 75px;
+	flex-direction: column;
+	margin-left: 50%;
+}
+
+/* Membership section */
+.membership-wrapper {
+	background-color: #000;
+	background-image: linear-gradient(to right, #000 40%, transparent 58%),
+		url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/PRIME_multi-benefit_MAGNET_2X._CB1519820207_SY1200_FMJPG_.jpg);
+	background-position: right top;
+}
+.membership-wrapper-div {
+	display: flex;
+	padding: 125px 75px;
+	flex-direction: column;
+	margin-right: 50%;
+}
+
+/* firestick section */
+.firestick-wrapper {
+	background-color: #000;
+	background-image: linear-gradient(to left, #000 40%, transparent 58%),
+		url(https://images-na.ssl-images-amazon.com/images/G/01/digital/video/Magellan_MLP/MLP_Template_Image_Left._SY1200_FMJPG_.jpg);
+	background-position: left top;
+}
+.firestick-wrapper-div {
+	display: flex;
+	padding: 125px 75px;
+	flex-direction: column;
+	margin-left: 50%;
+}
+
+/*  Benefits Section  */
+.benifits-wrapper {
+	padding: 50px 80px;
+}
+.benifits-wrapper-div {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: start;
+	margin: 0;
+}
+
+.benifits-item {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 0px 20px;
+}
+.benifits-item h2 {
+	font-weight: 600 !important;
+	font-size: 35x !important;
+}
+.benifits-item p {
+	text-align: center !important;
+	font-size: 21px !important;
+}
+
+/* Freindly section */
+.freindly-wrapper {
+	background-color: #000;
+	background-image: linear-gradient(to right, #000 40%, transparent 58%),
+		url(https://m.media-amazon.com/images/G/01/digital/video/Magellan_MLP/IN-kids-30Jan._CB1517304519_SY1200_FMJPG_.jpg);
+	background-position: right top;
+}
+.freindly-wrapper-div {
+	display: flex;
+	padding: 125px 75px;
+	flex-direction: column;
+	margin-right: 50%;
+}
+
+/* Footer Section */
+.footer-section {
+	background-color: #222 !important;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.footer-section > img {
+	margin-top: 30px;
+}
+.footer-section > div {
+	margin-bottom: 55px;
+}
+.footer-section > div > ul {
+	margin: 0px;
+	list-style: none;
+	display: flex;
+}
+.footer-section > div > ul > li {
+	padding: 0px 10px;
+}
+.footer-section > div > ul > li > a {
+	font-size: 14px;
+}
+.footer-section > div > ul > li > p {
+	margin: 0px;
+	color: #fff;
+}
